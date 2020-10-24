@@ -1,0 +1,468 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 3vw;
+  color: white;
+}
+
+.navbar .navbar-brand {
+  font-family: montserrat;
+  color: black;
+  font-size: 26px;
+  letter-spacing: 4px;
+}
+
+.btn {
+  color: white;
+  background-color: #013e8d;
+  font-family: Roboto Condense, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 7px 34px;
+  border-radius: 0;
+}
+
+.navbar-toggler-icon {
+  background-color: #013e8d;
+}
+
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+
+/* .jumbotron {
+  background-image: url(image/MV.png);
+  background-position: center;
+  height: 590px;
+  height: 100%;
+}  */
+
+.display-4 {
+  color: white;
+  text-align: center;
+  font-size: 5vw;
+  margin-top: -35%;
+  margin-bottom: 30%;
+}
+
+.technical {
+  flex: 0.5;
+}
+
+.technical1 {
+  margin-top: -5rem;
+  padding: 1.5rem 0rem 0.5rem 0rem; 
+  background-color:white;
+  flex: 5;
+}
+
+.technical1 h1{
+  color: #013e8d; 
+  font-family: CrimsonText-R; 
+  font-size: 10vw; 
+  font-size: 4vw;
+}
+
+.judul::after {
+  content: "";
+  background: white;
+  width: 2%;
+  height: 2px;
+  display: inline-block;
+}
+
+.flex-container .judul h2{
+  margin-bottom: -1% !important;
+}
+
+.technical2 {
+  flex: 0.5;
+}
+
+.content {
+  text-align: center;
+}
+
+
+p {
+  color: white;
+}
+
+.menu p {
+  padding: 1rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-container>*{
+  flex: 1 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-position: center;
+  background-size: cover;
+}
+
+.flex-container p{
+  font-size: 2vw;
+}
+
+.item1 {
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.more {
+  flex: 0.5;
+}
+
+.more1 {
+  flex: 5;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  background-size: 155vh 100%;
+  background-position: center;
+}
+
+.more2{
+  flex: 0.5;
+}
+
+hr {
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75));
+  display: block;
+}
+
+.more1 h3 {
+  float: right;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 0;
+  letter-spacing: 1.5px;
+}
+
+.more1 h3::before {
+  content: "";
+  width: 13px;
+  height: 2px;
+  position: absolute;
+  display: inline;
+  float: right;
+  background: white;
+  margin-top: -1.5%;
+}
+
+.container-fluid {
+  margin-top: 30px;
+}
+
+.container-fluid .gambar-1 img{
+  height: 40vh;
+  width: 71.5vh;
+}
+
+.container-fluid .judul-1 h1{
+  font-family: CrimsonText-R; 
+  font-size: 4.3vw; 
+  color: #013e8d; 
+  padding-top: 58px; 
+  margin-left: -22px; 
+  letter-spacing: 5px;
+}
+
+.container-fluid .link-1{
+  margin-top: -20px;
+  margin-right: 110px;
+  margin-left: auto;
+}
+
+.container-fluid .link-1 p{
+  background-color: #002554; 
+  font-family: YuGhotic-Medi; 
+  font-size: 1vw;
+  padding: 20px;
+}
+
+.container-fluid .judul-2 h1{
+  z-index: 2;
+  font-family: CrimsonText-R; 
+  font-size: 4.3vw; 
+  color: #013e8d; 
+  padding-top: 58px; 
+  padding-left: 110px; 
+  letter-spacing: 5px;
+}
+
+.container-fluid .gambar-2 img{
+  z-index: 1;
+  height: 40vh; 
+  width: 70vh; 
+  float: right;
+}
+
+.container-fluid .link-2 {
+  z-index: 2;
+  margin-top: -20px;
+  margin-left: 110px;
+  margin-right: auto;
+
+}
+
+.container-fluid .link-2 p{
+  background-color: #002554; 
+  font-family: YuGhotic-Medi; 
+  font-size: 1vw;
+  padding: 20px;
+  margin-bottom: 50%;
+}
+
+.container-fluid .judul-3 {
+  margin-top: -2.5%;
+}
+
+.container-fluid .gambar-3 {
+  margin-top: -7%;
+}
+
+.container-fluid .judul-3{
+  text-align: center;
+}
+
+.container-fluid .judul-3 h1{
+  font-family: CrimsonText-R; 
+  font-size: 4.3vw; 
+  color: #013e8d; 
+  letter-spacing: 5px;
+}
+
+.container-fluid .judul-3 p{
+  font-family: CrimsonText-R; 
+  font-size: 0.9vw; 
+  color: #484849;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 200;
+}
+
+.container-fluid .judul-3 h3{
+  font-size: 1vw;
+  color: #013e8d;
+  padding-top: 20px;
+}
+
+.container-fluid .judul-3 h3::after {
+  content: "";
+  background: #013e8d;
+  width: 4%;
+  height: 2px;
+  display: inline-block;
+  margin-bottom: -4%;
+  margin-left: -9%;
+}
+
+.container-fluid .judul-3 .judul-utama {
+  font-family: CrimsonText-R; 
+  font-size: 1.3vw; 
+  font-weight: 200;
+  font-weight: bold;
+  padding-left: 3px;
+}
+
+.container-fluid .gambar-3 img {
+  width: 60%;
+  height: 70%;
+  float: center;
+}
+
+.container-fluid .gambar-3 p {
+  color: #666666;
+  font-size: 0.9vw; 
+
+}
+.container-fluid .gambar-3 span{
+  color: #013e8d;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+
+.container-fluid .icon a{
+  background: #013e8d;
+  color: white;
+  padding: 10px 13px;
+  margin-top: 2px;
+  margin-left: -15.5%;
+}
+
+.container-fluid .link-3 h2{
+  color: #013e8d;
+  font-size: 20px;
+  height: 222px;
+  margin-right: -5px;
+  padding-top: 35px;
+  font-weight: bold;
+  background: white;
+}
+
+.container-fluid .link-4 h2{
+  color: #013e8d;
+  font-size: 20px;
+  height: 222px;
+  margin-left: -5px;
+  padding-top: 35px;
+  font-weight: bold;
+  background: white;
+}
+
+.container-fluid .card {
+  border-radius: 0;
+  border: none;
+}
+
+.card-text {
+  color: black;
+  font-weight: bold;
+}
+
+.card-text span {
+  color: #013e8d;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container-fluid .content-1 {
+  padding-top: 8%;
+}
+
+#topBtn {
+  background-color: #e74c3c;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  color: white;
+ 
+}
+
+
+/* Breakpoint Dekstop keatas */
+@media (min-width: 992px) { 
+  .navbar .navbar-brand {
+    color: white;
+    font-size: 36px;
+  }
+
+  .technical1 {
+    margin-top: -10%;
+    padding: 4rem 0rem 2rem 0rem; 
+  }
+
+  .img-fluid {
+    margin-top: -96px;
+  }
+
+  .flex-container>*{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .flex-container p{
+    font-size: 1.5vw;
+  }
+
+  .judul::after{
+    width: 6%;
+  }
+
+  .item1{
+    flex: 1;
+  }
+
+  .item2{
+    flex: 1;
+  }
+
+  .item3{
+    flex: 1;
+  }
+
+  .item4{
+    flex: 1;
+  }
+
+  .item5{
+    flex: 1;
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+
+  .more1{
+    padding-top: 92px;
+    padding-bottom: 30px;
+  }
+
+  .more1 h3::after{
+    width: 25px;
+  }
+
+  .container-fluid{
+    margin-top: 103px;
+  }
+
+  .container-fluid .gambar-1 img {
+    margin-left: -1.7%;
+    height: 60vh;
+    width: 140vh;
+    box-shadow: 224px 93px #e5e5e5;
+  }
+
+  .container-fluid .gambar-2 img{
+    margin-right: -1.6%;
+    height: 60vh; 
+    width: 140vh; 
+    box-shadow: -210px 93px #e5e5e5; 
+  }
+
+  .container-fluid .judul-3{
+    text-align: left;
+  }
+
+  .container-fluid .gambar-3{
+    float: left;
+  }
+
+  .container-fluid .gambar-3 img {
+    width: 100%;
+    height: 90%;
+  }
+
+  .container-fluid .gambar-3 p {
+    float: right;
+  }
+
+ }
